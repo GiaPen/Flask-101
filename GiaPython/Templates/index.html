@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Gia</title>
+    <link  rel="stylesheet" href="{{ url_for('static' , filename='Giacss.css') }}"/>
+</head>
+<body>
+    <h1 class="centrer titre ligne"> PYTHON GIA</h1>
+
+    <p class="centrer orange bold espace">Page html presentation</p>
+
+<div class="colonne ligne">
+    <ul>
+   <li><a href="{{ url_for('page1') }}" class="bold orange espace2">SNIR</a></li>
+   <li><a href="{{ url_for('page2') }}" class="bold orange espace2">CIEL</a></li>
+   <li><a href="{{ url_for('page3') }}" class="bold orange espace2">Etudes Supérieures</a></li>
+    </ul>
+</div>
+
+</body>
+</html>

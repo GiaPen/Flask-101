@@ -1,0 +1,46 @@
+body{
+    background-color: mediumblue;
+    font-family: sans-serif;
+}
+
+
+.centrer{
+    text-align: center;
+}
+
+.titre{
+    font-weight: bold;
+    color: darkorange;
+}
+
+.orange{
+    color: darkorange;
+}
+
+.espace{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.espace2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.colonne{
+    display: flex;
+}
+
+.ligne{
+    border-bottom: 2px solid;
+    padding-bottom: 1rem;
+    color: darkorange;
+}
+
+.justify{
+    text-align: justify;
+}
